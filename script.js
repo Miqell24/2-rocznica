@@ -1,5 +1,5 @@
 // Zegar od daty
-const startDate = new Date(2023, 6, 29); // lipiec = 6 (bo 0-index)
+const startDate = new Date(2023, 6, 28); // lipiec = 6 (bo 0-index)
 function updateTimer() {
   const now = new Date();
   const diff = now - startDate;
